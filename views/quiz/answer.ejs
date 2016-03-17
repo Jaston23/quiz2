@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title></title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+  </head>
+  <body>
+    <h1>La pregunta es...</h1>
+    <%  if(resultado) { %>
+    CORRECTA
+
+    <a href="/quizes/question">Sigue jugando </a>
+
+
+    <% }else { %>
+    INCORRECTA
+    <a href="/quizes/question">Inténtalo de nuevo </a>
+
+    <% } %>
+  </body>
+</html>
